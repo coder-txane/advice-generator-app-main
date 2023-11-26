@@ -1,0 +1,82 @@
+:root {
+  font-family: "Manrope";
+}
+
+html {
+  height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  background-color: hsl(218, 23%, 16%);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#container {
+  background-color: hsl(217, 19%, 24%);
+  width: clamp(40%, 400px, 95%);
+  /*width: 95%;*/
+  margin: 0 auto 4rem;
+  border-radius: 10px;
+  position: relative;
+}
+#container #wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1.5rem 0;
+}
+#container #advice-number {
+  color: hsl(150, 100%, 66%);
+  margin: 0 auto;
+  font-size: 0.7rem;
+  letter-spacing: 0.25rem;
+  font-weight: 600;
+}
+#container h1 {
+  color: hsl(193, 38%, 86%);
+  text-align: center;
+}
+#container .divider {
+  margin-bottom: 0px;
+}
+#container button {
+  margin: auto;
+  background-color: hsl(150, 100%, 66%);
+  border: none;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  position: relative;
+  top: 30px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+#container button:hover {
+  box-shadow: 0 0 30px hsl(150, 100%, 66%);
+}
+#container #dice-btn {
+  margin: auto;
+  vertical-align: middle;
+}
+#container #desktop-divider {
+  display: none;
+}
+
+footer {
+  color: hsl(193, 38%, 86%);
+}
+footer a {
+  color: hsl(150, 100%, 66%);
+}
+
+@media screen and (min-width: 375px) {
+  #container #desktop-divider {
+    display: block;
+  }
+  #container #mobile-divider {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */

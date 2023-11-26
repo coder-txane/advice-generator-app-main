@@ -1,0 +1,99 @@
+$lightCyan: hsl(193, 38%, 86%);
+$neonGreen: hsl(150, 100%, 66%);
+$greyishBlue: hsl(217, 19%, 38%);
+$darkGreyishBlue: hsl(217, 19%, 24%);
+$darkBlue: hsl(218, 23%, 16%);
+$manrope: 'Manrope';
+
+:root {
+    font-family: $manrope;
+}
+
+html {
+    height: 100vh;
+    overflow: hidden;
+}
+
+body {
+    background-color: $darkBlue;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#container {
+    background-color: $darkGreyishBlue;
+    width: clamp(40%, 400px, 95%);
+    /*width: 95%;*/
+    margin: 0 auto 4rem;
+    border-radius: 10px;
+    position: relative;
+    
+    #wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 1.5rem 0;
+    }
+
+    #advice-number {
+        color: $neonGreen;
+        margin: 0 auto;
+        font-size: 0.7rem;
+        letter-spacing: 0.25rem;
+        font-weight: 600;
+    }
+
+    h1 {
+        color: $lightCyan;
+        text-align: center;
+    }
+
+    .divider {
+        margin-bottom: 0px;
+    }
+
+    button {
+        margin: auto;
+        background-color: $neonGreen;
+        border: none;
+        border-radius: 50%;
+        height: 60px;
+        width: 60px;
+        position: relative;
+        top: 30px;
+        cursor: pointer;
+        transition: 0.1s;
+        &:hover {
+            box-shadow: 0 0 30px $neonGreen;
+        }
+    }
+
+    #dice-btn {
+        margin: auto;
+        vertical-align: middle;
+    }
+
+    #desktop-divider {
+        display: none;
+    }
+}
+
+footer {
+    color: $lightCyan;
+    a {
+        color: $neonGreen;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    #container {
+        #desktop-divider {
+            display: block;
+        }
+
+        #mobile-divider {
+            display: none;
+        }
+    }
+}
