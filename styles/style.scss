@@ -29,11 +29,12 @@ body {
     margin: 0 auto 4rem;
     border-radius: 10px;
     position: relative;
+    box-shadow: 0 20px 20px hsla(218, 23%, 16%, 0.6);
     
     #wrapper {
         display: flex;
         flex-direction: column;
-        padding: 2rem 1.5rem 0;
+        padding: 2rem 2.5rem 0;
     }
 
     #advice-number {
@@ -47,6 +48,7 @@ body {
     h1 {
         color: $lightCyan;
         text-align: center;
+        font-size: 1.7rem;
     }
 
     .divider {
