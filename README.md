@@ -49,9 +49,9 @@ Users should be able to:
 
 ### What I learned
 
-This was first time working with fetch API in a project. While it took me a while to figure out how to do it, I finally found a solution through a YouTube video that helped me fetch data from the API. I realise that I need to practise working with APIs more.
+This was my first time working with fetch API in a project. While it took me a while to figure out how to do it, I finally found a solution through a YouTube video that helped me fetch data from the API. I realise that I need to practise working with APIs more.
 
-This was also my first time using SASS. I found it pretty straightforward to use and much more efficient than vanilla CSS. I hope to use to for now on in future projects as it trluy streamlined my process of styling the design!
+This was also my first time using SASS. I found it pretty straightforward to use and much more efficient than vanilla CSS. I hope to use it from now on in future projects as it truly streamlined my process of styling the design!
 
 ### Continued development
 
@@ -63,7 +63,7 @@ The areas I intend to improve on are:
 
 ### Useful resources
 
-- [Oston Code Cypher's tutorial on using Advice Slip JSON API](https://www.youtube.com/watch?v=2AfzKmgqWUE&ab_channel=OstonCodeCypher) - This youtube video helped me figure out how exactly to extract data from the API and implement it.
+- [Oston Code Cypher's tutorial on using Advice Slip JSON API](https://www.youtube.com/watch?v=2AfzKmgqWUE&ab_channel=OstonCodeCypher) - This YouTube video helped me figure out how exactly to extract data from the API and implement it.
 
 ## Author
 
